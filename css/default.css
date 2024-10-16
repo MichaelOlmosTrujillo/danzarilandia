@@ -275,6 +275,22 @@ header#header .header_author a {
   -moz-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
+.encabezado{
+  color: #f6f8d3;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  letter-spacing: 1px;
+  margin-right: 10px;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  transition: all 0.25s ease
+}
+.encabezado:hover{
+  color: #fb802d;
+  text-decoration: none;
+
+}
 header#header .header_ticket a:hover,
 header#header .header_author a:hover {
   color: #fb802d;
@@ -1822,6 +1838,7 @@ body.sticky-menu.stick #header.menu-top-left #header-search {
 .page-title .blog-title {
   font-weight: bold;
   font-size: 40px;
+  color: rgb(152, 33, 95);
 }
 .page-title .breadcrumb {
   background: transparent;
@@ -4400,6 +4417,10 @@ footer#footer .sub-footer .social-links a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-color: rgba(38, 145, 219, 0.3);
+}
+.background-blog{
+  background-color: rgb(186, 176, 88);
 }
 .bg-contain {
   background-size: contain;
@@ -4722,6 +4743,10 @@ footer#footer .sub-footer .social-links a:hover {
   }
   article.blog-item.featured .post-image {
     height: 300px;
+  }
+  .blog_imagen{
+    height: auto;
+    width: 100%;
   }
   article.blog-item.featured .post-content {
     padding: 70px 15px;
