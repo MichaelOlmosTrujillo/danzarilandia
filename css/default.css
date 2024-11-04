@@ -267,10 +267,10 @@ header#header .header_ticket a,
 header#header .header_author a {
   color: #f6f8d3;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Open Sans';
   letter-spacing: 1px;
-  margin-right: 10px;
+  margin-right: 5px;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   transition: all 0.25s ease;
@@ -296,10 +296,10 @@ header#header .header_author a:hover {
   color: #fb802d;
 }
 header#header .header_author {
-  margin-left: 50px;
+  margin-left: 10px;
 }
 header#header .header_author:after {
-  content: '|';
+  /* content: '|'; */
   color: #fb802d;
   margin-left: 15px;
   margin-right: 15px;
